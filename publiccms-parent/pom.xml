@@ -311,12 +311,17 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>10</source>
+                    <target>10</target>
+					
                     <encoding>UTF-8</encoding>
                     <compilerArguments>
                         <extdirs>src\main\webapp\WEB-INF\lib</extdirs>
                     </compilerArguments>
+					<compilerArgs>
+						<arg>--add-modules</arg>
+						<arg>java.xml.ws.annotation</arg>
+					</compilerArgs>
                 </configuration>
             </plugin>
             <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-eclipse-plugin -->

@@ -38,5 +38,10 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.airhacks</groupId>
+			<artifactId>afterburner.fx</artifactId>
+			<version>1.7.0</version>
+		</dependency>
 	</dependencies>
 </project>
